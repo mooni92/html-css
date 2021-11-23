@@ -1,0 +1,845 @@
+/* index.html */
+.webview {
+  overflow: hidden;
+  position: relative;
+  width: 980px;
+  height: 1330px;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  display: block;
+  width: 1000px;
+  height: 100px;
+  font-size: 8px;
+  background : rgb(161, 212, 241);
+  color: #333; 
+  text-align: right; 
+  margin: 0 auto;
+  position: relative;
+}
+
+header img {
+  display: block;
+  box-sizing: content-box;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left : 60px;
+  top: 25px;
+}
+
+header h1 {
+  padding: 50px 200px 40px; 
+}
+
+nav{
+  background: rgb(179, 228, 243);
+  display: block;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  border-top:2px solid rgb(58, 65, 168);
+  border-bottom:2px solid rgb(58,65,168);
+}
+nav::after{content: "";clear: both; display: block;}
+nav ul{margin: 0; list-style: none;}
+nav ul li{float:left; margin: 15px 20px 15px 20px;}
+nav a{color: rgb(50, 42, 170); text-decoration: underline;}
+
+main{
+  position: relative;
+}
+.mainimg img{
+  position: relative;
+  width: 650px;
+  height: 130px;
+  left : 60px;
+  top: 30px;
+}
+
+main button{
+	width:140px;
+	height: 60px;
+	color:#fff;
+	background: rgb(243, 156, 18);
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.5em;
+  border-radius: 4px;
+	position: absolute;
+	right:60px;
+	top:50px;
+}
+
+
+span.signup {  
+  font-size: 16px;
+  position: absolute;
+  content: "";
+  clear: both;
+  display: block;
+  margin: 0 auto; 
+  float:right; 
+  color: rgb(50, 42, 170); 
+  text-decoration: underline;
+  top: 110px;
+  right: 150px;
+}
+
+span.find {
+  font-size: 16px;
+  position: absolute;
+  content: "";
+  clear: both;
+  display: block;
+  margin: 0 auto; 
+  float:right; 
+  color: rgb(50, 42, 170); 
+  text-decoration: underline;
+  top: 110px;
+  right: 60px;
+}
+
+ .bold {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  color: #333;
+  line-height: 1.428;
+  display: block;
+  left: 60px;
+  top: 35px;
+}
+.paragraph {
+  font-size: 13px;
+  line-height: 1.4em;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 40px;
+  left: 60px;
+}
+
+.bigbold {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  color: #333;
+  line-height: 1.428;
+  display: block;
+  left: 60px;
+  top: 75px;
+}
+.p0 {
+  position: relative;
+  top: 300x;
+  width: 320px;
+  height: 60px;
+}
+.smallp img {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left : 60px;
+  top: 80px;
+}
+
+.p1 {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 250px;
+  height: 25px;
+}
+
+.pp1 {
+  font-size: 13px;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 230px;
+  height: 35px;
+}
+
+.p00 {
+  position: relative;
+  top: -60px;
+  width: 320px;
+  height: 60px;
+  left: 320px;
+}
+.smallq img {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left : 60px;
+  top: 80px;
+}
+
+.p2 {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 250px;
+  height: 25px;
+}
+
+.pp2 {
+  font-size: 13px;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 230px;
+  height: 35px;
+}
+
+
+.p000 {
+  position: relative;
+  top: -45px;
+  width: 320px;
+  height: 60px;
+}
+.smallr img {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left : 60px;
+  top: 80px;
+}
+
+.p3 {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 250px;
+  height: 25px;
+}
+
+.pp3 {
+  font-size: 13px;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 230px;
+  height: 35px;
+}
+
+.p0000 {
+  position: relative;
+  top: -105px;
+  width: 320px;
+  height: 60px;
+  left: 320px;
+}
+.smalls img {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left : 60px;
+  top: 80px;
+}
+
+.p4 {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 250px;
+  height: 25px;
+}
+
+.pp4 {
+  font-size: 13px;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: block;
+  color:#333;
+  top: 20px;
+  left: 130px;
+  position: relative;
+  width: 230px;
+  height: 35px;
+}
+
+.bigbold1 {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  color: #333;
+  line-height: 1.428;
+  display: block;
+  left: 60px;
+  top: 20px;
+}
+
+.header2 img {
+  display: block;
+  box-sizing: content-box;
+  position: relative;
+  width: 635px;
+  height: 120px;
+  left : 60px;
+  display: block;
+  top: 30px;
+  bottom: 30px;
+}
+
+.p {
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  white-space: pre-wrap;
+  color: #333;
+  line-height: 1.428;
+  display: block;
+  text-align: center;
+  top: 30px;
+  right: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  background : rgb(161, 212, 241);
+  color: #333; 
+  text-align: center; 
+  bottom: 0px;
+  left: 0px;
+  border-top:3px solid rgb(58, 65, 168);
+  padding: 0px;
+  position: absolute;
+  line-height: 100px;
+}
+
+/*  notice.html */
+table {
+  width: 640px;
+  height: 35px;
+  color: #333;
+  position:absolute;
+  overflow: hidden;
+  font-size: 14px;
+  top: 221px;
+  left: 170px;
+  padding: 10px;
+}
+
+.title {
+  background-color: #9b9999d2 ;
+}
+
+td {
+  border-bottom: 3px solid rgb(148, 144, 144);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.write button{
+  font-size: 12px;
+  background-color: orange;
+  position: absolute;
+  text-align: center;
+  border-radius: 4px;
+  top: 610px;
+  left: 715px;
+  width: 60px;
+  height: 26px;
+}
+
+.number button {
+  width:40px;
+  height: 40px;
+  font-size: 16px;
+  color: #333;
+  background-color: rgb(236, 233, 227);
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  position: relative;
+  top: 530px;
+  left: 350px;
+}
+
+#number2{
+  background-color: rgb(52, 152, 219);;
+}
+
+/* detail.html */
+.text h1{
+  font-size: 16px;
+  color: #333;
+  width: 400px;
+  height: 40px;
+  position: absolute;
+}
+
+.date {
+  position: absolute;
+  top:  10px;
+  left: 530px;
+  font-size: 16px;
+  width: 85px;
+  height: 20px;
+}
+
+.contentbox{ 
+  position: absolute;
+  top: 244px;
+  left: 170px;
+  width: 640px;
+  height: 35px;
+  border-top:3px solid rgb(141, 137, 128);
+  border-bottom:3px solid rgb(141, 137, 128);
+}
+
+#maincontent {
+  resize: none;
+  position: absolute;
+  top: 290px;
+  left:180px;
+  width: 620px;
+  height: 220px;
+  font-size: 14px;
+  color: #333;
+  padding: 10px;
+}
+
+hr{
+  position: absolute;
+  top: 530px;
+  left: 170px;
+  width: 640px;
+}
+.modify button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  border-radius: 4px;
+  top: 550px;
+  left: 630px;
+  width: 60px;
+  height: 26px;
+}
+
+.list button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  border-radius: 4px;
+  top: 550px;
+  left: 720px;
+  width: 60px;
+  height: 26px;
+} 
+
+/* write.html */
+#writetitle {
+  top: 3px;
+  left: 20px;
+  font-size: 16px;
+  color: #333;
+  width: 600px;
+  height: 25px;
+  position: absolute;
+}
+
+#writebox{
+  resize: none;
+  position : absolute;
+  height: 240px;
+  width: 600px;
+  top: 290px;
+  left: 190px;
+
+}
+
+.list1 button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  top: 380px;
+  left: 400px;
+  width: 60px;
+  height: 26px;
+}
+
+.list2 button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  top: 355px;
+  left: 480px;
+  width: 60px;
+  height: 26px;
+}
+
+/* modify.html */
+#id {
+  position: absolute;  
+  left: 20px;
+  top: 0px; 
+  width: 600px; 
+  height: 25px;
+}
+
+#modifytext{
+  resize: none;
+  position : absolute;
+  height: 240px;
+  width: 600px;
+  top: 290px;
+  left: 190px;
+
+}
+#contentbox { 
+  vertical-align: text-top;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 605px;
+  height: 240px;
+}
+
+
+.list3 button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  top: 380px;
+  left: 400px;
+  width: 60px;
+  height: 26px;
+}
+
+.list4 button {
+  font-size: 12px;
+  background-color: orange;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  top: 355px;
+  left: 480px;
+  width: 60px;
+  height: 26px;
+}
+
+/* gallery.html */
+.pic1 img{
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 240px;
+  left: 212px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt1{
+  top: 380px;
+  left: 240px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+.pic2 img{
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 240px;
+  left: 421px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt2{
+  top: 380px;
+  left: 450px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+
+.pic3 img{
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 240px;
+  left: 640px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt3{
+  top: 380px;
+  left: 670px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+.pic4 img{
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 420px;
+  left: 212px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt4{
+  top: 560px;
+  left: 240px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+.pic5 img {
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 420px;
+  left: 421px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt5 {
+  top: 560px;
+  left: 450px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+.pic6 img {
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  top: 420px;
+  left: 640px;
+  font-size: 14px;
+  columns: #333;
+}
+
+.txt6 {
+  top: 560px;
+  left: 670px;
+  font-size: 14px;
+  columns: #333;
+  position: absolute;
+}
+
+/* contract.html */
+#join1 {
+  resize: none;
+  position: absolute;
+  top: 200px;
+  width: 600px;
+  height: 240px;
+  left: 194px;
+}
+
+ .checkbox {
+  position: absolute;
+  top: 472px;
+  left: 570px;
+  width: 300px;
+  height: 20px;
+}
+
+.joinproceed button {
+  width:100px;
+	height: 40px;
+	color:#fff;
+	background-color: rgb(243, 156, 18);
+	font-size: 14px;
+	text-align: center;
+  border-radius: 4px;
+	position: absolute;
+	left:680px;
+	top:510px;
+}
+
+/* signup.html */
+.iid {
+  position: absolute;
+  top: 290px;
+  left: 240px;
+  height: 20px;
+}
+#user-id {
+  position: absolute;
+  top: 318px;
+  left: 235px;
+  width: 380px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.ppassword {
+  position: absolute;
+  top: 365px;
+  left: 236px;
+  height: 20px;
+}
+#password {
+  position: absolute;
+  top: 390px;
+  left: 235px;
+  width: 380px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.ccheck {
+  position: absolute;
+  top: 430px;
+  left: 236px;
+  height: 20px;
+}
+#passwordcheck {
+  position: absolute;
+  top: 455px;
+  left: 235px;
+  width: 380px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.nname {
+  position: absolute;
+  top: 495px;
+  left: 236px;
+  height: 20px;
+}
+
+#user-name {
+  position: absolute;
+  top: 515px;
+  left: 235px;
+  width: 380px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup button {
+  width:390px;
+	height: 40px;
+	color:#fff;
+	background-color: rgb(243, 156, 18);
+	font-size: 16px;
+	text-align: center;
+  border-radius: 4px;
+	position: absolute;
+	left:235px;
+	top:580px;
+}
+/* signin.html */
+.signin button {
+  width:390px;
+	height: 40px;
+	color:#fff;
+	background-color: rgb(243, 156, 18);
+	font-size: 16px;
+	text-align: center;
+  border-radius: 4px;
+	position: absolute;
+	left:235px;
+	top:455px;
+}
+
+/* hover 부분 */
+nav a:hover {
+  background-color:rgb(74, 198, 202);
+}
+
+button:hover {
+  background-color:rgb(74, 198, 202);
+}
+
+.signup :hover{ 
+  background-color:rgb(74, 198, 202);
+}
+
+.table td a:hover{ 
+  background-color:rgb(74, 198, 202);
+}
